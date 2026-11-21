@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "datamind-ai",
+  "main": "./worker/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./dist/client",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    // Always run the Worker first for API routes so they never fall back to the SPA.
+    "run_worker_first": ["/api", "/api/*"]
+  },
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    // Production value. For local development copy .dev.vars.example to .dev.vars.
+    "ENVIRONMENT": "production",
+    // Gemini AI integration. GEMINI_API_KEY is deliberately NOT declared here: a plain variable with the same name
+    // would replace the secret on every deploy. Set it once with `wrangler secret put GEMINI_API_KEY`
+    // (locally it comes from .dev.vars). GEMINI_MODEL is optional.
+    "GEMINI_MODEL": "gemini-2.5-flash"
+  }
+}

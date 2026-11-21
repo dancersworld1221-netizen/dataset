@@ -1,0 +1,7 @@
+# Local development overrides (copy to .dev.vars, which is git-ignored)
+ENVIRONMENT=development
+
+# Gemini AI integration (Phase 4)
+# Get a key from https://aistudio.google.com/app/apikey and never commit it.
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-2.5-flash

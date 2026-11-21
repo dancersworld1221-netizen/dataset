@@ -1,0 +1,212 @@
+{
+ "age": {
+  "count": 119,
+  "min": 20.0,
+  "max": 64.0,
+  "sum": 5014.0,
+  "mean": 42.134453781512605,
+  "median": 42.0,
+  "variance": 172.38854863979492,
+  "stdDev": 13.129681970245697,
+  "populationVariance": 170.93990537391429,
+  "populationStdDev": 13.074398853251887,
+  "q1": 31.0,
+  "q3": 53.5,
+  "iqr": 22.5,
+  "mad": 11.0,
+  "cv": 0.31161391193842003,
+  "skewness": -0.027645056435738617,
+  "excessKurtosis": -1.2032985485244954,
+  "modes": [
+   20.0,
+   21.0,
+   22.0,
+   24.0,
+   25.0,
+   27.0,
+   29.0,
+   30.0,
+   32.0,
+   33.0,
+   35.0,
+   37.0,
+   38.0,
+   40.0,
+   41.0,
+   43.0,
+   45.0,
+   46.0,
+   48.0,
+   49.0,
+   51.0,
+   53.0,
+   54.0,
+   56.0,
+   57.0,
+   58.0,
+   59.0,
+   61.0,
+   62.0,
+   64.0
+  ],
+  "modeFrequency": 3,
+  "zeroCount": 0,
+  "positiveCount": 119,
+  "negativeCount": 0
+ },
+ "income": {
+  "count": 117,
+  "min": 1900.0,
+  "max": 4543.0,
+  "sum": 388420.0,
+  "mean": 3319.82905982906,
+  "median": 3354.0,
+  "variance": 506921.69466548774,
+  "stdDev": 711.9843359691895,
+  "populationVariance": 502589.03060851776,
+  "populationStdDev": 708.9351385059974,
+  "q1": 2750.0,
+  "q3": 3932.0,
+  "iqr": 1182.0,
+  "mad": 585.0,
+  "cv": 0.21446415557488072,
+  "skewness": -0.0683777218289584,
+  "excessKurtosis": -1.10172329278592,
+  "modes": [],
+  "modeFrequency": 0,
+  "zeroCount": 0,
+  "positiveCount": 117,
+  "negativeCount": 0
+ },
+ "with_outliers": {
+  "count": 120,
+  "min": -300.0,
+  "max": 500.0,
+  "sum": 6685.0,
+  "mean": 55.708333333333336,
+  "median": 55.0,
+  "variance": 2732.141106442578,
+  "stdDev": 52.26988718605176,
+  "populationVariance": 2709.3732638888896,
+  "populationStdDev": 52.05164035733062,
+  "q1": 52.0,
+  "q3": 58.0,
+  "iqr": 6.0,
+  "mad": 3.0,
+  "cv": 0.9382777056583711,
+  "skewness": 2.554676258114387,
+  "excessKurtosis": 62.011487233768136,
+  "modes": [
+   51.0,
+   52.0,
+   53.0,
+   54.0,
+   55.0,
+   56.0,
+   57.0,
+   58.0,
+   59.0
+  ],
+  "modeFrequency": 11,
+  "zeroCount": 0,
+  "positiveCount": 119,
+  "negativeCount": 1
+ },
+ "zero_inflated": {
+  "count": 120,
+  "min": 0.0,
+  "max": 31.0,
+  "sum": 1158.5,
+  "mean": 9.654166666666667,
+  "median": 0.0,
+  "variance": 130.35208333333333,
+  "stdDev": 11.417183686589846,
+  "populationVariance": 129.2658159722222,
+  "populationStdDev": 11.369512565287142,
+  "q1": 0.0,
+  "q3": 20.5,
+  "iqr": 20.5,
+  "mad": 0.0,
+  "cv": 1.1826172139756421,
+  "skewness": 0.6149376080966087,
+  "excessKurtosis": -1.2173852429199306,
+  "modes": [
+   0.0
+  ],
+  "modeFrequency": 64,
+  "zeroCount": 64,
+  "positiveCount": 56,
+  "negativeCount": 0
+ },
+ "corr_age_income": {
+  "pearson": 0.9866881807129012,
+  "spearman": 0.9889663131037919,
+  "n": 116
+ },
+ "corr_age_debt": {
+  "pearson": -0.9862466277589351,
+  "spearman": -0.9842720199886487,
+  "n": 119
+ },
+ "corr_age_spend": {
+  "pearson": 0.0015740873068570758,
+  "spearman": 0.0052070628035380635,
+  "n": 119
+ },
+ "outliers_iqr_rows": [
+  10,
+  77
+ ],
+ "outliers_iqr_bounds": [
+  43.0,
+  67.0
+ ],
+ "outliers_z_rows": [
+  10,
+  77
+ ],
+ "outliers_modz_rows": [
+  10,
+  77
+ ],
+ "age_hist_8": {
+  "counts": [
+   17,
+   12,
+   15,
+   14,
+   15,
+   13,
+   17,
+   16
+  ],
+  "edges": [
+   20.0,
+   25.5,
+   31.0,
+   36.5,
+   42.0,
+   47.5,
+   53.0,
+   58.5,
+   64.0
+  ]
+ },
+ "target": {
+  "classes": {
+   "no": 108,
+   "yes": 12
+  },
+  "ratio": 9.0
+ },
+ "category": {
+  "classes": {
+   "blue": 28,
+   "green": 28,
+   "red": 28,
+   "yellow": 28
+  },
+  "missing": 8
+ },
+ "n": 120
+}
